@@ -8,8 +8,8 @@
   <meta name="applicable-device" content="pc,mobile">
   <meta name="author" content="Qbenben">
   <meta name="designer" content="Qbenben">
-  <meta name="keywords" content="郑秋彬,Qbenben,qbenben,qben,Qbenben-Blog,前端,深圳">
-  <meta name="description" content="Qbenben-Blog-郑秋彬-一个在前端打怪升级的新人。">
+  <meta name="keywords" content="郑秋彬,Qbenben,qbenben,qben,Qbenben-Blog,前端">
+  <meta name="description" content="Qbenben-Blog-郑秋彬-一个在前端打怪升级的靓仔。">
   <meta name="rating" content="general"> 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -89,9 +89,15 @@
 </section>
 <section class="wrapper main-wrapper">
     <article class="sub-container post-content">
-        <h2 id="一、Express"><a href="#一、Express" class="headerlink" title="一、Express"></a>一、Express</h2><h3 id="express是什么"><a href="#express是什么" class="headerlink" title="express是什么"></a>express是什么</h3><pre><code> express是一个高度包容，快速，极简的nodeJs应用程序框架。
+        <div class="toc">
+
+<!-- toc -->
+<!-- tocstop -->
+</div>
+
+<h2><span id="yi-express">一、Express</span></h2><h2><span id="express-shi-shi-me">express是什么</span></h2><h3><span id="express-shi-shi-me">express是什么</span></h3><pre><code> express是一个高度包容，快速，极简的nodeJs应用程序框架。
 </code></pre><a id="more"></a>
-<h3 id="如何快速启动Express"><a href="#如何快速启动Express" class="headerlink" title="如何快速启动Express"></a>如何快速启动Express</h3><p>1、全局安装express-generator：</p>
+<h3><span id="ru-he-kuai-su-qi-dong-express">如何快速启动Express</span></h3><p>1、全局安装express-generator：</p>
 <pre><code>$npm i express-generator -g --registry=https://registry.npm.taobao.org
 </code></pre><p>2、创建名为myapp应用程序：</p>
 <pre><code>$express myapp
@@ -101,8 +107,8 @@
 <pre><code> $npm install
 </code></pre><p>5、启动程序：</p>
 <pre><code> $DEBUG=myapp:* npm start
-</code></pre><h3 id="express-generator生成的目录结构"><a href="#express-generator生成的目录结构" class="headerlink" title="express generator生成的目录结构"></a>express generator生成的目录结构</h3><p><img src="/images/expressMongoose/expressjade.png" alt="image"></p>
-<h3 id="将jade改成ejs"><a href="#将jade改成ejs" class="headerlink" title="将jade改成ejs"></a>将jade改成ejs</h3><p>通过express generator生成的项目，是用jade模板引擎，但是我觉得<code>jade</code>可读性比较差，且很难去适应<code>jade</code>写法，所以我用了ejs</p>
+</code></pre><h3><span id="express-generator-sheng-cheng-de-mu-lu-jie-gou">express generator生成的目录结构</span></h3><p><img src="/images/expressMongoose/expressjade.png" alt="image"></p>
+<h3><span id="jiang-jade-gai-cheng-ejs">将jade改成ejs</span></h3><p>通过express generator生成的项目，是用jade模板引擎，但是我觉得<code>jade</code>可读性比较差，且很难去适应<code>jade</code>写法，所以我用了ejs</p>
 <ul>
 <li><p>修改方法如下：</p>
 <p>  1、npm下载ejs-locals(在根目录下执行以下命令)：</p>
@@ -117,8 +123,8 @@
 <li><p>Note：监听端口是3000，所以本地访问<a href="http://127.0.0.1:3000/" target="_blank" rel="noopener">http://127.0.0.1:3000/</a></p>
 </li>
 </ul>
-<h2 id="二、Mongoose"><a href="#二、Mongoose" class="headerlink" title="二、Mongoose"></a>二、Mongoose</h2><pre><code>mongodb是一个对象模型工具，Mongoose是针对mongodb操作的一个对象模型库，它封装了mongodb增删改查的一些方法。
-</code></pre><h3 id="Mongoose（Schema-Model-Entity）"><a href="#Mongoose（Schema-Model-Entity）" class="headerlink" title="Mongoose（Schema,Model,Entity）"></a>Mongoose（Schema,Model,Entity）</h3><ul>
+<h2><span id="er-mongoose">二、Mongoose</span></h2><pre><code>mongodb是一个对象模型工具，Mongoose是针对mongodb操作的一个对象模型库，它封装了mongodb增删改查的一些方法。
+</code></pre><h3><span id="mongoose-schema-model-entity">Mongoose（Schema,Model,Entity）</span></h3><ul>
 <li>Schema：数据结构描述。</li>
 </ul>
 <pre><code class="js">    // 创建Schema
@@ -138,7 +144,7 @@
 <ul>
 <li>Entity: 是实体，对应一条数据。</li>
 </ul>
-<h3 id="如何连接数据库"><a href="#如何连接数据库" class="headerlink" title="如何连接数据库"></a>如何连接数据库</h3><p>1、安装mongodb：</p>
+<h3><span id="ru-he-lian-jie-shu-ju-ku">如何连接数据库</span></h3><p>1、安装mongodb：</p>
 <pre><code>$brew install mongodb
 </code></pre><p>2、进入myapp：</p>
 <pre><code>$cd myapp
@@ -150,7 +156,7 @@
 <pre><code>$cd modules
 </code></pre><p>6.创建form_collections.js: </p>
 <pre><code>$touch form_collections.js
-</code></pre><h3 id="form-collections-js如何实现数据库连接"><a href="#form-collections-js如何实现数据库连接" class="headerlink" title="form_collections.js如何实现数据库连接"></a>form_collections.js如何实现数据库连接</h3><p><img src="/images/expressMongoose/collectionfile.png" alt="image"></p>
+</code></pre><h3><span id="form-collections-js-ru-he-shi-xian-shu-ju-ku-lian-jie">form_collections.js如何实现数据库连接</span></h3><p><img src="/images/expressMongoose/collectionfile.png" alt="image"></p>
 <pre><code class="js">
     // 链接数据库
     var mongoose = require(&#39;mongoose&#39;);
@@ -176,18 +182,18 @@
 
 
 </code></pre>
-<h3 id="在routes-index-js中引入form-collections-js"><a href="#在routes-index-js中引入form-collections-js" class="headerlink" title="在routes/index.js中引入form_collections.js"></a>在routes/index.js中引入form_collections.js</h3><p><img src="/images/expressMongoose/index.png" alt="image"><br><img src="/images/expressMongoose/indexdemo.png" alt="image"></p>
-<h3 id="启动mongodb"><a href="#启动mongodb" class="headerlink" title="启动mongodb"></a>启动mongodb</h3><pre><code>$sudo mongod --dbpath=/Users/ellyliang/Downloads/myapp/data
+<h3><span id="zai-routes-index-js-zhong-yin-ru-form-collections-js">在routes/index.js中引入form_collections.js</span></h3><p><img src="/images/expressMongoose/index.png" alt="image"><br><img src="/images/expressMongoose/indexdemo.png" alt="image"></p>
+<h3><span id="qi-dong-mongodb">启动mongodb</span></h3><pre><code>$sudo mongod --dbpath=/Users/ellyliang/Downloads/myapp/data
 </code></pre><ul>
 <li>Note:连接数据库之后，要先启动mongodb之后，再启动express。</li>
 </ul>
-<h3 id="mongoose的增删改查-额外的补充的信息"><a href="#mongoose的增删改查-额外的补充的信息" class="headerlink" title="mongoose的增删改查(额外的补充的信息)"></a>mongoose的增删改查(额外的补充的信息)</h3><ul>
+<h3><span id="mongoose-de-zeng-shan-gai-cha-e-wai-de-bu-chong-de-xin-xi">mongoose的增删改查(额外的补充的信息)</span></h3><ul>
 <li>1 .find()： 查找，读取信息</li>
 <li>2 .create()： 增加信息</li>
 <li>3 .update()： 更新信息</li>
 <li>4 .remove()： 删除信息</li>
 </ul>
-<h2 id="三、结束语"><a href="#三、结束语" class="headerlink" title="三、结束语"></a>三、结束语</h2><p>以上是我的分享总结整理，如果你还是不太懂我写的是什么，可以去coding上边把我的项目拉下来,然后跑起来看看就好了。我的例子项目里边写了mongoose的增删该查的方法，希望能帮助到你。</p>
+<h2><span id="san-jie-shu-yu">三、结束语</span></h2><p>以上是我的分享总结整理，如果你还是不太懂我写的是什么，可以去coding上边把我的项目拉下来,然后跑起来看看就好了。我的例子项目里边写了mongoose的增删该查的方法，希望能帮助到你。</p>
 <p><a href="https://coding.net/u/useLess/p/expressMongodb/git" target="_blank" rel="noopener">Coding上的项目</a></p>
 <p>如何启动：</p>
 <pre><code>$DEBUG=expressMongodb:* npm start

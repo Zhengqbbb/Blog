@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://qbenben.com/article/express-and-mongoose/</loc>
+    
+    <lastmod>2021-05-26T19:36:52.130Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://qbenben.com/plugins/highlight/README.html</loc>
     
     <lastmod>2020-07-03T17:43:22.142Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://qbenben.com/plugins/highlight/CHANGES.html</loc>
     
     <lastmod>2020-07-03T17:43:22.141Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://qbenben.com/article/express-and-mongoose/</loc>
-    
-    <lastmod>2020-07-03T17:43:22.137Z</lastmod>
     
   </url>
   
