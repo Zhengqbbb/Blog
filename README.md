@@ -30,6 +30,6 @@ hexo d
 # 自定义脚本
 # 运行本地环境
 npm run dev
-# 一命令推送到仓库
+# 一条命令推送到仓库
 npm run push
 ```
