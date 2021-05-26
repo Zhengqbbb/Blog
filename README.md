@@ -18,7 +18,7 @@ hexo s
 # ... 写文章 source/_posts
 # 清楚上一次打包资源
 hexo clean
-# 打包生成静态文件
+# 生成静态文件
 hexo generate
 hexo g
 # 推送到仓库
