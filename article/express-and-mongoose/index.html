@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="author" content="Qbenben">
+  <meta name="designer" content="Qbenben">
+  <meta name="keywords" content="郑秋彬,Qbenben,qbenben,qben,Qbenben-Blog,前端,深圳">
+  <meta name="description" content="Qbenben-Blog-郑秋彬-一个在前端打怪升级的新人。">
+  <meta name="rating" content="general"> 
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="/favicon.ico">
+  
+  <!-- Title -->
+  
+  <title>如何搭建Express和Mongoose | Qbenben - 在前端打怪升级</title>
+  <link rel="stylesheet" href="/css/f25.css">
+  <link rel="stylesheet" href="/css/highlight.css">
+  <link rel="stylesheet" href="/plugins/highlight/styles/atom-one-dark.css">
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-71722593-5', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</head>
+</head>
+<body>
+    <header class="wrapper header-wrapper">
+    <div class="container header-nav-wrapper">
+        <div class="logo"><a href="/"><h1 class="title">Qbenben</h1></a></div>
+        <nav class="nav-wrapper">
+            
+                <a href="/">Home</a>
+            
+                <a href="https://github.com/Zhengqbbb">Github</a>
+            
+                <a href="https://www.instagram.com/qbqiubin/">Instagram</a>
+            
+                <a href="/article/about/">About</a>
+            
+        </nav>
+        <span class="btn-menu" id="J_header_menu">
+            <div class="inner">
+                <span class="line line-01"></span>
+                <span class="line line-02"></span>
+                <span class="line line-03"></span>
+            </div>
+        </span>
+        <div class="wrapper mb-nav-wrapper" id="J_header_menu_list">
+            <nav class="wrapper mb-nav-container">
+                
+                    <a href="/">Home</a>
+                
+                    <a href="https://github.com/Zhengqbbb">Github</a>
+                
+                    <a href="https://www.instagram.com/qbqiubin/">Instagram</a>
+                
+                    <a href="/article/about/">About</a>
+                
+            </nav>
+        </div>
+    </div>
+</header>
+    <div class="body-wrapper">
+        <section class="wrapper post-banner">
+    <div class="container post-banner-container">
+        <h2 class="wrapper title">如何搭建Express和Mongoose</h2>
+        <div class="wrapper tips">
+            <span>Author：</span><span>Elly</span> | <span>Date: </span><span>2016-09-18</span> | <span>Category：</span><span><a href="/cates/Node-js/">Node.js</a></span>
+        </div>
+    </div>
+</section>
+<section class="wrapper main-wrapper">
+    <article class="sub-container post-content">
+        <h2 id="一、Express"><a href="#一、Express" class="headerlink" title="一、Express"></a>一、Express</h2><h3 id="express是什么"><a href="#express是什么" class="headerlink" title="express是什么"></a>express是什么</h3><pre><code> express是一个高度包容，快速，极简的nodeJs应用程序框架。
+</code></pre><a id="more"></a>
+<h3 id="如何快速启动Express"><a href="#如何快速启动Express" class="headerlink" title="如何快速启动Express"></a>如何快速启动Express</h3><p>1、全局安装express-generator：</p>
+<pre><code>$npm i express-generator -g --registry=https://registry.npm.taobao.org
+</code></pre><p>2、创建名为myapp应用程序：</p>
+<pre><code>$express myapp
+</code></pre><p>3、进入到myapp：</p>
+<pre><code>$cd myapp
+</code></pre><p>4、安装依赖：</p>
+<pre><code> $npm install
+</code></pre><p>5、启动程序：</p>
+<pre><code> $DEBUG=myapp:* npm start
+</code></pre><h3 id="express-generator生成的目录结构"><a href="#express-generator生成的目录结构" class="headerlink" title="express generator生成的目录结构"></a>express generator生成的目录结构</h3><p><img src="/images/expressMongoose/expressjade.png" alt="image"></p>
+<h3 id="将jade改成ejs"><a href="#将jade改成ejs" class="headerlink" title="将jade改成ejs"></a>将jade改成ejs</h3><p>通过express generator生成的项目，是用jade模板引擎，但是我觉得<code>jade</code>可读性比较差，且很难去适应<code>jade</code>写法，所以我用了ejs</p>
+<ul>
+<li><p>修改方法如下：</p>
+<p>  1、npm下载ejs-locals(在根目录下执行以下命令)：</p>
+<pre><code>  $npm i ejs-locals —save
+</code></pre><p>  2、修改<code>app.js</code>3处地方</p>
+<p>  <img src="/images/expressMongoose/ejsdemo.png" alt="image"></p>
+<p>  3、将<code>views</code>目录下<code>.jade</code>结尾的文件修改成<code>.ejs</code>结尾</p>
+<p>  <img src="/images/expressMongoose/expressejs.png" alt="image"></p>
+<p>  4、重新启动</p>
+<pre><code>  $DEBUG=myapp:* npm start
+</code></pre></li>
+<li><p>Note：监听端口是3000，所以本地访问<a href="http://127.0.0.1:3000/" target="_blank" rel="noopener">http://127.0.0.1:3000/</a></p>
+</li>
+</ul>
+<h2 id="二、Mongoose"><a href="#二、Mongoose" class="headerlink" title="二、Mongoose"></a>二、Mongoose</h2><pre><code>mongodb是一个对象模型工具，Mongoose是针对mongodb操作的一个对象模型库，它封装了mongodb增删改查的一些方法。
+</code></pre><h3 id="Mongoose（Schema-Model-Entity）"><a href="#Mongoose（Schema-Model-Entity）" class="headerlink" title="Mongoose（Schema,Model,Entity）"></a>Mongoose（Schema,Model,Entity）</h3><ul>
+<li>Schema：数据结构描述。</li>
+</ul>
+<pre><code class="js">    // 创建Schema
+    var formSchema = new mongoose.Schema({
+        title: String,
+        content: String,
+        name: String,
+        age: Number,
+        reqRes: Number
+    });
+</code></pre>
+<ul>
+<li>Model：数据实体的封装。</li>
+</ul>
+<pre><code class="js">var formModel = mongoose.model(&#39;form&#39;, formSchema);
+</code></pre>
+<ul>
+<li>Entity: 是实体，对应一条数据。</li>
+</ul>
+<h3 id="如何连接数据库"><a href="#如何连接数据库" class="headerlink" title="如何连接数据库"></a>如何连接数据库</h3><p>1、安装mongodb：</p>
+<pre><code>$brew install mongodb
+</code></pre><p>2、进入myapp：</p>
+<pre><code>$cd myapp
+</code></pre><p>3、安装mongoose：</p>
+<pre><code>$npm i mongoose —save
+</code></pre><p>4、创建modules文件夹：</p>
+<pre><code>$mkdir modules
+</code></pre><p>5、进入modules：</p>
+<pre><code>$cd modules
+</code></pre><p>6.创建form_collections.js: </p>
+<pre><code>$touch form_collections.js
+</code></pre><h3 id="form-collections-js如何实现数据库连接"><a href="#form-collections-js如何实现数据库连接" class="headerlink" title="form_collections.js如何实现数据库连接"></a>form_collections.js如何实现数据库连接</h3><p><img src="/images/expressMongoose/collectionfile.png" alt="image"></p>
+<pre><code class="js">
+    // 链接数据库
+    var mongoose = require(&#39;mongoose&#39;);
+    mongoose.connect(&#39;mongodb://localhost/test&#39;);
+    var db = mongoose.connection;
+    db.on(&#39;error&#39;, console.error.bind(console, &#39;链接错误&#39;));
+    db.once(&#39;open&#39;, function() {
+        console.log(&#39;MongoDB连接成功！&#39;);
+    });
+
+    // 创建Schema
+    var formSchema = new mongoose.Schema({
+        title: String,
+        content: String,
+        name: String,
+        age: Number,
+        reqRes: Number
+    });
+    // 创建Model
+    var formModel = mongoose.model(&#39;form&#39;, formSchema);
+
+    module.exports = formModel;
+
+
+</code></pre>
+<h3 id="在routes-index-js中引入form-collections-js"><a href="#在routes-index-js中引入form-collections-js" class="headerlink" title="在routes/index.js中引入form_collections.js"></a>在routes/index.js中引入form_collections.js</h3><p><img src="/images/expressMongoose/index.png" alt="image"><br><img src="/images/expressMongoose/indexdemo.png" alt="image"></p>
+<h3 id="启动mongodb"><a href="#启动mongodb" class="headerlink" title="启动mongodb"></a>启动mongodb</h3><pre><code>$sudo mongod --dbpath=/Users/ellyliang/Downloads/myapp/data
+</code></pre><ul>
+<li>Note:连接数据库之后，要先启动mongodb之后，再启动express。</li>
+</ul>
+<h3 id="mongoose的增删改查-额外的补充的信息"><a href="#mongoose的增删改查-额外的补充的信息" class="headerlink" title="mongoose的增删改查(额外的补充的信息)"></a>mongoose的增删改查(额外的补充的信息)</h3><ul>
+<li>1 .find()： 查找，读取信息</li>
+<li>2 .create()： 增加信息</li>
+<li>3 .update()： 更新信息</li>
+<li>4 .remove()： 删除信息</li>
+</ul>
+<h2 id="三、结束语"><a href="#三、结束语" class="headerlink" title="三、结束语"></a>三、结束语</h2><p>以上是我的分享总结整理，如果你还是不太懂我写的是什么，可以去coding上边把我的项目拉下来,然后跑起来看看就好了。我的例子项目里边写了mongoose的增删该查的方法，希望能帮助到你。</p>
+<p><a href="https://coding.net/u/useLess/p/expressMongodb/git" target="_blank" rel="noopener">Coding上的项目</a></p>
+<p>如何启动：</p>
+<pre><code>$DEBUG=expressMongodb:* npm start
+
+$sudo mongod --dbpath=/存放项目的目录结构/expressMongodb/data
+</code></pre>
+    </article>
+    <section class="sub-container">
+        <!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC8yODg1Ni81NDI2">
+<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+</script>
+<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
+    </section>
+</section>
+        
+<div class="tips-top-wrapper">
+    <span class="tip-top-container" onclick="scrollToWindowTop()">
+        <span class="l-bar"></span>
+        <span class="r-bar"></span>
+    </span>
+</div>
+<footer class="wrapper footer-wrapper">
+    <div class="container"><span class="copyright">&copy; 2021 Qbenben Blog. 粤ICP19092669号.</span></div>
+</footer>
+    </div>
+    <script src="/js/f25.js"></script>
+    <!-- highlight.js代码高亮主题 script 引入-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <!-- highlight.js代码高亮主题 script 引入-->
+</body>
+</html>

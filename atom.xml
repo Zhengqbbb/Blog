@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Qbenben - 在前端打怪升级</title>
+  
+  <subtitle>Qbenben-Blog | 郑秋彬 | qbenben</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://qbenben.com/"/>
+  <updated>2020-07-03T17:43:22.137Z</updated>
+  <id>http://qbenben.com/</id>
+  
+  <author>
+    <name>Qbenben</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>富途2018 web前端招聘</title>
+    <link href="http://qbenben.com/article/about/"/>
+    <id>http://qbenben.com/article/about/</id>
+    <published>2018-01-18T04:00:00.000Z</published>
+    <updated>2020-07-03T17:43:22.137Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="招聘职位"><a href="#招聘职位" class="headerlink" title="招聘职位"></a>招聘职位</h2><p>web前端工程师 ， <strong>php开发工程师</strong> 都招。邮件发至<a href="mailto:`toobug@futu5.com" target="_blank" rel="noopener">`toobug@futu5.com</a>`。</p><blockquote><p>发简历的时候，记得描述一下自己是通过什么渠道了解到招聘信息的。在邮件里能大概描述一下自己是最好的。欢迎大家投简历。</p></blockquote><p><strong>坐标：深圳科兴科学园</strong></p><p><img src="/images/2018-01-18-invite/01.jpg" alt="futu"></p><p>前端要求：</p><p>1、前端基础知识掌握牢固，精通 HTML &amp;&amp; CSS &amp;&amp; JavaScript<br>2、有一定计算机基础<br>3、大学本科以上学历<br>4、加分项：了解后端技术、懂产品或设计</p><p>PHP要求:<br>1、2年以上的Web后端开发经验，语言不限(PHP/Python/Nodejs)<br>2、熟练使用MySQL，良好的数据库设计和丰富的优化经验<br>3、熟悉NoSQL技术(redis，memcached等）<br>4、有Web安全意识，熟悉常见的Web安全问题以及防御措施<br>5、熟悉linux web开发平台及工具，熟悉nginx服务器的配置优化工作<br>6、了解web前端开发技术和常见的前端优化技巧<br>7、有较强的学习能力，有良好沟通能力以及团队协作精神，能够承担工作压力</p><p><strong>我们主要看中基础知识的深度，广度。框架这种东西都是次要的，框架学个几天不就会了吗？赶紧投简历吧</strong></p><a id="more"></a><h2 id="公司介绍"><a href="#公司介绍" class="headerlink" title="公司介绍"></a>公司介绍</h2><p>富途 <a href="https://www.futu5.com" target="_blank" rel="noopener">https://www.futu5.com</a> 是国内领先的独角兽级别的港美股券商，也是大陆唯一一家同时持港股和美股牌照的券商。由腾讯18号员工创建，核心员工大部分来自腾讯，氛围和腾讯基本一样。</p><p>作为资深互联网从业者的我们，当以一流互联网产品的要求和服务水准来审视香港网络证券经纪服务，我们发现有太多可以改善的空间：设计粗糙的交易软件、高昂的交易成本、漫不经心的客户服务……于是，把我们多年来对互联网产品技术的积累和理解以及互联网行业与生俱来的体验至上、客户第一的理念带入到香港证券经纪行业，并由此带来改变，便成为了我们的使命。</p><p>公司自成立以来获腾讯、红杉、经纬连续三轮融资，均由腾讯领投。2017年6月完成1.455亿美元C轮融资。所以发展前景你懂的。</p><p>招聘web前端工程师（以及其他各种职位，也欢迎沟通骚扰），负责公司证券业务以及其他各项业务体系搭建运营。</p><blockquote><p>因为前期PHP的小伙伴没有参加这个招聘信息的编写，所以下面都是前端小伙伴的一些描述。PHP同学大概也有将近25人。</p></blockquote><h2 id="团队和氛围"><a href="#团队和氛围" class="headerlink" title="团队和氛围"></a>团队和氛围</h2><p>目前前端有23人，其中有6名妹子，均是“00后小姐姐”。</p><p>团队技术氛围比较开放，不拘泥于某一个具体的技术。只要自己挖的坑愿意填到底，还是非常鼓励大家尝试使用各种技术的。</p><p>团队的技术建设方面，目前已经完成基本的工程化、组件化体系搭建，并且还在不断进化中，如果你对工程化、组件化的建设感兴趣，那么不要错过。</p><p>框架方面因为氛围比较开放，并不强制要求。但务实地说，未来一段时间的主力框架会重点使用vue及其生态圈。如果你有别的想法，并且愿意拉起一票人另立山头，那么，还是那句话，只要你愿意填坑到底，来吧。如果你并不会框架，也没有关系，我们有足够的耐心，并且相信框架永远不是最重要的事情，学起来可以很快。</p><p>团队正在尝试使用Node.js接管HTTP接入层，如果你是Node.js大牛，也非常欢迎你的加入。</p><p>团队每个月会有技术分享会，为大家分享行业新技术、工作实践经验。2017年我们关注了Node.js内核、Rx.js、WebAudio、TypeScript、AMP、SVG、直播技术等话题。此外还有5分钟分享，为大家打开技术视野，开一下脑洞。</p><p>如果除了技术，你还有各种小兴趣小爱好，那么小讲堂肯定会是你的菜。在这里有帅哥带你分析深圳地铁交通，幽默风趣到怀疑人生，有大牛带你寻祖寻根，最后发现大家都是非洲人，有美女带你一起玩农药，和产品同学一起PK到底，有算法大咖教你机器学习，让你一夜成为最潮的技术人，还能练习膜法（划掉）……</p><p>公司内也培（美）训（食）多多，有技术分享也有吹水，打开一个大大的世界，最近很火的TF，区块链都有大神分享哦~干货满满~</p><p>公司有浓厚的运动氛围，不管是骑车 爬山 徒步 游泳 羽毛球 足球 健身啥的，都有专业大牛带。公司传统，每年都会派队参加香港的毅行者活动，2天内徒步100公里，web组的mark(鸡肉男，单身，对哦，男生比较多，貌似没用！)多次带队获得优异成绩（奖励粪叉一部）。喜欢健身的也可以找mark。游泳协会的会长也是一个漂亮的小姐姐（各种坑人运营活动也是出至于她），游泳超赞的。</p><p>狼人杀or德州扑克不定时走起。公司健身房也是棒棒哒，跑步机椭圆机和器械都可以把自己练得美美哒，而且不用出公司哦，太方便了。</p><h2 id="福利待遇"><a href="#福利待遇" class="headerlink" title="福利待遇"></a>福利待遇</h2><p>待遇视能力具体面谈商定，大体跟腾讯对齐。</p><p>六险一金不用说  腾讯食堂美食多  牛牛周边人人有  佣金套餐省钱多<br>日常天天小零食  辣条鱼干随意挑  每月都有生日会  礼品蛋糕一大堆<br>免费活动不定期  白吃白喝修手机  学习分享很开心  还有全员写JD</p><p>组内每月会有团建活动，吃饭唱K还是桌游农家乐随便选。</p><p>不定时会有一波大团建，大家一起拉出去，到外面嗨翻天</p><h2 id="简历邮件"><a href="#简历邮件" class="headerlink" title="简历邮件"></a>简历邮件</h2><p>这篇招聘广告由一大波前端同学共同执笔完成，如果你想投简历，也可以发给我，或者我，或者我……</p><p><a href="mailto:toobug@futu5.com" target="_blank" rel="noopener">toobug@futu5.com</a></p><p><a href="mailto:linda@futunn.com" target="_blank" rel="noopener">linda@futunn.com</a></p><p><a href="mailto:nick@futunn.com" target="_blank" rel="noopener">nick@futunn.com</a></p><h2 id="七嘴八舌，闹个不停"><a href="#七嘴八舌，闹个不停" class="headerlink" title="七嘴八舌，闹个不停"></a>七嘴八舌，闹个不停</h2><p>A: 不知道咋写，晕</p><p>B: 脑袋还没打开</p><p>C: 感觉要去吃饭了（11:30…） baby们。现在也可以去吃啊，乖乖 还有10分钟好吗！也是，现在去人少！你是谁，咱们一起走！感觉在网上交友似的。别废话，赶紧写……</p><p>C：吃完饭回来写也可以正式发出去。我以为写完管饭</p><p>D：去吃小君刚（科兴楼下的一家火锅店）么海妖。</p><p>C：我知道你是谁了……小君“刚”暴露了（我也知道你是谁了）</p><p>C：日胖夜胖，就想吃小君刚。</p><p>D：我才是200斤胖子(hello,my name is 200 jingggggg)  ,不要和Jin搞混了。</p><p>E：觉得应该说说我们是怎么玩前端的比较好。看了八哥发的这篇文章 <a href="https://zhuanlan.zhihu.com/p/33181018?from=groupmessage&amp;isappinstalled=0" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/33181018?from=groupmessage&amp;isappinstalled=0</a>。</p><p>F：前端已经回归理性，不再浮躁。是该用我的的实力去吸引人才的时候了。应该告诉大家我们现在是怎么玩前端的，我们后面打算怎么在前端继续玩下去。</p><p>官方：可以，都可以写一写，先有大量脑暴的可能性，最后在文字上再整理一下。我们现在的氛围就很好啊，注重分享啊</p><p>G：分享是一种美德 思密达 ，写上我们的组件  ui规范 系统化 xxx</p><p>官方：框架可以不写我认为，在要求里写主流框架熟悉一种就好啦</p><p>H：我只想关心我家糖糖是不是可以成为小网红！！！哈哈！！！你们不想看嘛，哈哈</p><p>H：不要废话，直接写……写完不合适的我们再删嘛，又不是没被删过代码，怕啥……</p><p>I：还可以写上咱们用的框架，估计有一部分人会关心。</p><p>J：难道不该把这篇JD的产生过程记录下，写出来么</p><p>I：你怎么知道我最后我写这个过程哦……</p><p>J：这就是你这个活动的产出啊</p><p>I：牛逼……</p><p>K：参考下去年我们写的也可以：<a href="/article/2017-invite/">2017-invite</a></p><p>D：我们年会有公费给大家买衣服，也是福利咋没人说</p><p>C：好了，吃饭吧，哈哈</p><p>D：水牛是真的水，一心只想年会抽奖</p><p>官方：重要的事情在最后写。</p><h2 id="核心问题"><a href="#核心问题" class="headerlink" title="核心问题"></a>核心问题</h2><p>其实我们的招聘广告的核心就是：</p><p>我们缺人，待遇高，福利好，我们需要你，come on !<br>PS:八哥说了，进来后包脱单，小伙伴们听到这个信息难道不激动吗，点姨只擅长给狗宝宝介绍女朋友，不要找她就对了<br>那些想离职再重新进来一次的同学<br>麻烦进来时再带上一名同学一起入职，这样我们的人就多了—人家只是想脱单…555</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;招聘职位&quot;&gt;&lt;a href=&quot;#招聘职位&quot; class=&quot;headerlink&quot; title=&quot;招聘职位&quot;&gt;&lt;/a&gt;招聘职位&lt;/h2&gt;&lt;p&gt;web前端工程师 ， &lt;strong&gt;php开发工程师&lt;/strong&gt; 都招。邮件发至&lt;a href=&quot;mailto:`toobug@futu5.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;`toobug@futu5.com&lt;/a&gt;`。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;发简历的时候，记得描述一下自己是通过什么渠道了解到招聘信息的。在邮件里能大概描述一下自己是最好的。欢迎大家投简历。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;坐标：深圳科兴科学园&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-01-18-invite/01.jpg&quot; alt=&quot;futu&quot;&gt;&lt;/p&gt;
+&lt;p&gt;前端要求：&lt;/p&gt;
+&lt;p&gt;1、前端基础知识掌握牢固，精通 HTML &amp;amp;&amp;amp; CSS &amp;amp;&amp;amp; JavaScript&lt;br&gt;2、有一定计算机基础&lt;br&gt;3、大学本科以上学历&lt;br&gt;4、加分项：了解后端技术、懂产品或设计&lt;/p&gt;
+&lt;p&gt;PHP要求:&lt;br&gt;1、2年以上的Web后端开发经验，语言不限(PHP/Python/Nodejs)&lt;br&gt;2、熟练使用MySQL，良好的数据库设计和丰富的优化经验&lt;br&gt;3、熟悉NoSQL技术(redis，memcached等）&lt;br&gt;4、有Web安全意识，熟悉常见的Web安全问题以及防御措施&lt;br&gt;5、熟悉linux web开发平台及工具，熟悉nginx服务器的配置优化工作&lt;br&gt;6、了解web前端开发技术和常见的前端优化技巧&lt;br&gt;7、有较强的学习能力，有良好沟通能力以及团队协作精神，能够承担工作压力&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我们主要看中基础知识的深度，广度。框架这种东西都是次要的，框架学个几天不就会了吗？赶紧投简历吧&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="团队活动" scheme="http://qbenben.com/cates/%E5%9B%A2%E9%98%9F%E6%B4%BB%E5%8A%A8/"/>
+    
+    
+      <category term="2018" scheme="http://qbenben.com/tags/2018/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何搭建Express和Mongoose</title>
+    <link href="http://qbenben.com/article/express-and-mongoose/"/>
+    <id>http://qbenben.com/article/express-and-mongoose/</id>
+    <published>2016-09-18T05:56:00.000Z</published>
+    <updated>2020-07-03T17:43:22.137Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、Express"><a href="#一、Express" class="headerlink" title="一、Express"></a>一、Express</h2><h3 id="express是什么"><a href="#express是什么" class="headerlink" title="express是什么"></a>express是什么</h3><pre><code> express是一个高度包容，快速，极简的nodeJs应用程序框架。</code></pre><a id="more"></a><h3 id="如何快速启动Express"><a href="#如何快速启动Express" class="headerlink" title="如何快速启动Express"></a>如何快速启动Express</h3><p>1、全局安装express-generator：</p><pre><code>$npm i express-generator -g --registry=https://registry.npm.taobao.org</code></pre><p>2、创建名为myapp应用程序：</p><pre><code>$express myapp</code></pre><p>3、进入到myapp：</p><pre><code>$cd myapp</code></pre><p>4、安装依赖：</p><pre><code> $npm install</code></pre><p>5、启动程序：</p><pre><code> $DEBUG=myapp:* npm start</code></pre><h3 id="express-generator生成的目录结构"><a href="#express-generator生成的目录结构" class="headerlink" title="express generator生成的目录结构"></a>express generator生成的目录结构</h3><p><img src="/images/expressMongoose/expressjade.png" alt="image"></p><h3 id="将jade改成ejs"><a href="#将jade改成ejs" class="headerlink" title="将jade改成ejs"></a>将jade改成ejs</h3><p>通过express generator生成的项目，是用jade模板引擎，但是我觉得<code>jade</code>可读性比较差，且很难去适应<code>jade</code>写法，所以我用了ejs</p><ul><li><p>修改方法如下：</p><p>  1、npm下载ejs-locals(在根目录下执行以下命令)：</p><pre><code>  $npm i ejs-locals —save</code></pre><p>  2、修改<code>app.js</code>3处地方</p><p>  <img src="/images/expressMongoose/ejsdemo.png" alt="image"></p><p>  3、将<code>views</code>目录下<code>.jade</code>结尾的文件修改成<code>.ejs</code>结尾</p><p>  <img src="/images/expressMongoose/expressejs.png" alt="image"></p><p>  4、重新启动</p><pre><code>  $DEBUG=myapp:* npm start</code></pre></li><li><p>Note：监听端口是3000，所以本地访问<a href="http://127.0.0.1:3000/" target="_blank" rel="noopener">http://127.0.0.1:3000/</a></p></li></ul><h2 id="二、Mongoose"><a href="#二、Mongoose" class="headerlink" title="二、Mongoose"></a>二、Mongoose</h2><pre><code>mongodb是一个对象模型工具，Mongoose是针对mongodb操作的一个对象模型库，它封装了mongodb增删改查的一些方法。</code></pre><h3 id="Mongoose（Schema-Model-Entity）"><a href="#Mongoose（Schema-Model-Entity）" class="headerlink" title="Mongoose（Schema,Model,Entity）"></a>Mongoose（Schema,Model,Entity）</h3><ul><li>Schema：数据结构描述。</li></ul><pre><code class="js">    // 创建Schema    var formSchema = new mongoose.Schema({        title: String,        content: String,        name: String,        age: Number,        reqRes: Number    });</code></pre><ul><li>Model：数据实体的封装。</li></ul><pre><code class="js">var formModel = mongoose.model(&#39;form&#39;, formSchema);</code></pre><ul><li>Entity: 是实体，对应一条数据。</li></ul><h3 id="如何连接数据库"><a href="#如何连接数据库" class="headerlink" title="如何连接数据库"></a>如何连接数据库</h3><p>1、安装mongodb：</p><pre><code>$brew install mongodb</code></pre><p>2、进入myapp：</p><pre><code>$cd myapp</code></pre><p>3、安装mongoose：</p><pre><code>$npm i mongoose —save</code></pre><p>4、创建modules文件夹：</p><pre><code>$mkdir modules</code></pre><p>5、进入modules：</p><pre><code>$cd modules</code></pre><p>6.创建form_collections.js: </p><pre><code>$touch form_collections.js</code></pre><h3 id="form-collections-js如何实现数据库连接"><a href="#form-collections-js如何实现数据库连接" class="headerlink" title="form_collections.js如何实现数据库连接"></a>form_collections.js如何实现数据库连接</h3><p><img src="/images/expressMongoose/collectionfile.png" alt="image"></p><pre><code class="js">    // 链接数据库    var mongoose = require(&#39;mongoose&#39;);    mongoose.connect(&#39;mongodb://localhost/test&#39;);    var db = mongoose.connection;    db.on(&#39;error&#39;, console.error.bind(console, &#39;链接错误&#39;));    db.once(&#39;open&#39;, function() {        console.log(&#39;MongoDB连接成功！&#39;);    });    // 创建Schema    var formSchema = new mongoose.Schema({        title: String,        content: String,        name: String,        age: Number,        reqRes: Number    });    // 创建Model    var formModel = mongoose.model(&#39;form&#39;, formSchema);    module.exports = formModel;</code></pre><h3 id="在routes-index-js中引入form-collections-js"><a href="#在routes-index-js中引入form-collections-js" class="headerlink" title="在routes/index.js中引入form_collections.js"></a>在routes/index.js中引入form_collections.js</h3><p><img src="/images/expressMongoose/index.png" alt="image"><br><img src="/images/expressMongoose/indexdemo.png" alt="image"></p><h3 id="启动mongodb"><a href="#启动mongodb" class="headerlink" title="启动mongodb"></a>启动mongodb</h3><pre><code>$sudo mongod --dbpath=/Users/ellyliang/Downloads/myapp/data</code></pre><ul><li>Note:连接数据库之后，要先启动mongodb之后，再启动express。</li></ul><h3 id="mongoose的增删改查-额外的补充的信息"><a href="#mongoose的增删改查-额外的补充的信息" class="headerlink" title="mongoose的增删改查(额外的补充的信息)"></a>mongoose的增删改查(额外的补充的信息)</h3><ul><li>1 .find()： 查找，读取信息</li><li>2 .create()： 增加信息</li><li>3 .update()： 更新信息</li><li>4 .remove()： 删除信息</li></ul><h2 id="三、结束语"><a href="#三、结束语" class="headerlink" title="三、结束语"></a>三、结束语</h2><p>以上是我的分享总结整理，如果你还是不太懂我写的是什么，可以去coding上边把我的项目拉下来,然后跑起来看看就好了。我的例子项目里边写了mongoose的增删该查的方法，希望能帮助到你。</p><p><a href="https://coding.net/u/useLess/p/expressMongodb/git" target="_blank" rel="noopener">Coding上的项目</a></p><p>如何启动：</p><pre><code>$DEBUG=expressMongodb:* npm start$sudo mongod --dbpath=/存放项目的目录结构/expressMongodb/data</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一、Express&quot;&gt;&lt;a href=&quot;#一、Express&quot; class=&quot;headerlink&quot; title=&quot;一、Express&quot;&gt;&lt;/a&gt;一、Express&lt;/h2&gt;&lt;h3 id=&quot;express是什么&quot;&gt;&lt;a href=&quot;#express是什么&quot; class=&quot;headerlink&quot; title=&quot;express是什么&quot;&gt;&lt;/a&gt;express是什么&lt;/h3&gt;&lt;pre&gt;&lt;code&gt; express是一个高度包容，快速，极简的nodeJs应用程序框架。
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="Node.js" scheme="http://qbenben.com/cates/Node-js/"/>
+    
+    
+      <category term="Express" scheme="http://qbenben.com/tags/Express/"/>
+    
+      <category term="Mongodb" scheme="http://qbenben.com/tags/Mongodb/"/>
+    
+      <category term="mongoose" scheme="http://qbenben.com/tags/mongoose/"/>
+    
+  </entry>
+  
+</feed>
