@@ -21,8 +21,15 @@ hexo clean
 # 打包生成静态文件
 hexo generate
 hexo g
-# 推送到github
+# 推送到仓库
 hexo deploy
 hexo d
 ```
 
+```bash
+# 自定义脚本
+# 运行本地环境
+npm run dev
+# 一命令推送到仓库
+npm run push
+```
