@@ -61,11 +61,10 @@ progress {
   display: inline-block;
 }
 blockquote{
-    background: #ecf0f1;
-    margin: 0;
-    padding: 2px 10px;
-    font-style: italic;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
 }
 textarea {
   overflow: auto;

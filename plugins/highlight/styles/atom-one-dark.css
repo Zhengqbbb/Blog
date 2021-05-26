@@ -22,14 +22,16 @@ hue-6-2: #e6c07b
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #abb2bf;
-  background: #282c34;
-  font-size: .8em;
+  color: #c4ccdc;
+  background: #253a4a;
+  border-radius: 0.4em;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .hljs-comment,
 .hljs-quote {
-  color: #5c6370;
+  color: #69717e;
   font-style: italic;
 }
 
