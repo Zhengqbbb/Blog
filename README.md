@@ -14,16 +14,13 @@ npm install -g hexo-cli
 npm install -g hexo-cli --registry=http://registry.npm.taobao.org
 # 运行本地环境
 hexo server
-hexo s
 # ... 写文章 source/_posts
 # 清楚上一次打包资源
 hexo clean
 # 生成静态文件
 hexo generate
-hexo g
 # 推送到仓库
 hexo deploy
-hexo d
 ```
 
 ```bash
