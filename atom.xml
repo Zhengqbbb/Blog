@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qbenben.com/"/>
-  <updated>2021-05-27T20:53:09.739Z</updated>
+  <updated>2021-05-27T20:58:00.430Z</updated>
   <id>http://qbenben.com/</id>
   
   <author>
@@ -21,18 +21,18 @@
     <link href="http://qbenben.com/article/mac/"/>
     <id>http://qbenben.com/article/mac/</id>
     <published>2021-05-28T17:41:00.000Z</published>
-    <updated>2021-05-27T20:53:09.739Z</updated>
+    <updated>2021-05-27T20:58:00.430Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>记录留痕自己Mac常用的软件，以及share给更多的人</p></blockquote><h3 id="1-Git"><a href="#1-Git" class="headerlink" title="1. Git"></a>1. Git</h3><h3 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h3><ol><li>通过homebrew安装Git</li></ol><ul><li>安装homebrew<pre><code class="bash">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre></li><li>安装git<pre><code class="bash">brew install git</code></pre></li></ul><ol start="2"><li>创建ssh key并配置</li></ol><ul><li>设置好username喝email，每次commit都会记录（配错不会有小绿点哦）<pre><code>git config --global user.name &quot;zhengqbbb&quot;git config --global user.email &quot;1074059947@qq.com&quot;</code></pre></li><li>创建ssh key<pre><code class="bash">ssh-keygen -t rsa -C &quot;1074059947@qq.com&quot;</code></pre><h3 id="2-常见命令"><a href="#2-常见命令" class="headerlink" title="2. 常见命令"></a>2. 常见命令</h3></li><li>代理<ul><li>如果自己有github和gitee的项目可以把下面的–global去掉分repo<pre><code class="bash"># 看看自己的airplane HTTP代理地址是多少git config --global https.proxy http://127.0.0.1:1080git config --global https.proxy https://127.0.0.1:1080# 看看自己的airplane（高级设置） socks5监听地址是多少git config --global http.proxy &#39;socks5://127.0.0.1:1080&#39;git config --global https.proxy &#39;socks5://127.0.0.1:1080&#39;git config --global --unset http.proxygit config --global --unset https.proxygit config list</code></pre></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>记录留痕自己Mac常用的软件，以及share</p></blockquote><h2 id="1-Git"><a href="#1-Git" class="headerlink" title="1. Git"></a>1. Git</h2><h3 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h3><ol><li>通过homebrew安装Git</li></ol><ul><li>安装homebrew<pre><code class="bash">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre></li><li>安装git<pre><code class="bash">brew install git</code></pre></li></ul><ol start="2"><li>创建ssh key并配置</li></ol><ul><li>设置好username喝email，每次commit都会记录（配错不会有小绿点哦）<pre><code>git config --global user.name &quot;zhengqbbb&quot;git config --global user.email &quot;1074059947@qq.com&quot;</code></pre></li><li>创建ssh key<pre><code class="bash">ssh-keygen -t rsa -C &quot;1074059947@qq.com&quot;</code></pre><h3 id="2-常见命令"><a href="#2-常见命令" class="headerlink" title="2. 常见命令"></a>2. 常见命令</h3></li><li>代理<ul><li>如果自己有github和gitee的项目可以把下面的–global去掉分repo<pre><code class="bash"># 看看自己的airplane HTTP代理地址是多少git config --global https.proxy http://127.0.0.1:1080git config --global https.proxy https://127.0.0.1:1080# 看看自己的airplane（高级设置） socks5监听地址是多少git config --global http.proxy &#39;socks5://127.0.0.1:1080&#39;git config --global https.proxy &#39;socks5://127.0.0.1:1080&#39;git config --global --unset http.proxygit config --global --unset https.proxygit config list</code></pre></li></ul></li></ul>]]></content>
     
     <summary type="html">
     
       
       
         &lt;blockquote&gt;
-&lt;p&gt;记录留痕自己Mac常用的软件，以及share给更多的人&lt;/p&gt;
+&lt;p&gt;记录留痕自己Mac常用的软件，以及share&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;1-Git&quot;&gt;&lt;a href=&quot;#1-Git&quot; class=&quot;headerlink&quot; title=&quot;1. Git&quot;&gt;&lt;/a&gt;1. Git&lt;/
+&lt;h2 id=&quot;1-Git&quot;&gt;&lt;a href=&quot;#1-Git&quot; class=&quot;headerlink&quot; title=&quot;1. Git&quot;&gt;&lt;/a&gt;1. Git&lt;/h2&gt;&lt;h
       
     
     </summary>
