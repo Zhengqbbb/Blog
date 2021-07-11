@@ -262,7 +262,7 @@ html , body{
 .post-content ul,
 .post-content ol{
     box-sizing: border-box;
-    padding: 20px 10px;
+    padding: 4px;
     margin: 0;
 }
 .post-content table{
@@ -283,7 +283,7 @@ html , body{
     box-sizing: border-box;
 }
 .post-content li{
-    font-weight: 500;
+    font-weight: normal;
     line-height: 2;
     color: #333;
     -ms-word-break: break-all;
@@ -525,21 +525,82 @@ code{
     font-family: PingFang SC,Consolas,Monaco,courier,monospace;
 }
 
-.toc {
-    position: fixed;
-    right: 0;
-    margin-left: 40px;
-    padding: 10px 20px;
-    background: #f1f1f1;
-    border-radius: 10px;
-    box-shadow: 0 0 3px #bbb;
-  }
-
-.header-anchor {
-    color: #ffa711;
-    margin-right: 3px;
+.article-toc {
+    position: absolute;
+    right: 0%;
+    width: 14%;
+    min-height: 1px;
+    padding-left: 30px;
 }
 
-.post-toc-item {
+.article-toc-inner {
+    padding-top: 30px;
+    overflow-x: hidden;
+    width: 80%;
+}
+
+.article-toc-inner.fixed {
+    position: fixed;
+    top: 64px;
+    bottom: 140px;
+    width: 13%;
+    overflow-y: auto;
+}
+
+.article-toc-inner ol,
+.article-toc-inner ul {
     list-style: none;
+    margin: 0;
+    width: 98%;
+    margin-left: 2%;
+}
+.post-toc {
+    padding: 0;
+    font-size: 13px;
+}
+.post-toc-item.active>.post-toc-link:before {
+    background: rgba(0,0,0,0.06);
+}
+.post-toc-item.active>.post-toc-link:after {
+    border-left: 3px solid #ffa711;
+}
+.post-toc-link:before, .post-toc-link:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.post-toc-link {
+    position: relative;
+    text-decoration: none;
+    z-index: 2;
+    display: block;
+    padding: 3px 20px;
+    line-height: 1.2rem;
+    color: inherit;
+    word-break: break-all;
+    color: #6a737d;
+}
+.post-toc-link:hover {
+    color: #ffa711;
+}
+.post-toc-child {
+    padding-left: 10px;
+}
+
+.sidebar-title {
+    display: block;
+    padding: 0 0 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #727272;
+}
+
+@media screen and (max-width: 1230px){
+    .article-toc{
+        display: none;
+    }
 }

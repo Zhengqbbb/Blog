@@ -74,17 +74,70 @@ if (headerMenu && headerMenulist) {
   });
 }
 
+function throttle(fn) {
+  var timerId = null;
+  return function () {
+    var arg = arguments[0]; //获取事件
+    if (timerId) {
+      return;
+    }
+    timerId = setTimeout(function () {
+      fn(arg); //事件传入函数
+      timerId = null;
+    }, 100);
+  };
+}
+
 /**
  * @description: jquery写法，TOC目录描点跳转
  */
+// var initPageToc = function () {
+//   var heightDistance = 90;
+//   $('.post-toc-link').each(function() {
+//     var itemOffset = $($(this).attr("href")).offset();
+//     $(this).click(function() {
+//       $("html, body").animate({scrollTop: itemOffset.top - heightDistance + "px"}, 500);
+//       return false;
+//     });
+//   });
+// };
+
 var initPageToc = function () {
   var heightDistance = 90;
-  $('.post-toc-link').each(function() {
-    $(this).click(function() {
-      $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top - heightDistance + "px"}, 500);
+  // TOC link click animate
+  $(".post-toc-link").each(function () {
+    var itemOffsetTop = $($(this).attr("href")).offset().top;
+    $(this).on("click", function () {
+      $("html, body").animate(
+        { scrollTop: itemOffsetTop - heightDistance + "px" },
+        500
+      );
       return false;
     });
   });
+
+  // banner display to add 'fixed' class on TOC link
+  $(window).on(
+    "scroll",
+    throttle(function () {
+      var topSideBarTop = 64;
+      var targetClass = 'fixed'
+      var targetElement = $(".article-toc-inner");
+      var banner = $(".post-banner");
+      var bannerTop = banner.offset().top;
+      var bannerHeight = banner.height() - topSideBarTop;
+      var clientHeight = $(window).height();
+      var scrollTop = $(document).scrollTop();
+      if (
+        bannerTop < scrollTop + clientHeight &&
+        bannerTop + bannerHeight > scrollTop
+      ) {
+        if(targetElement.hasClass(targetClass)) targetElement.removeClass(targetClass);
+      } else {
+        if(!targetElement.hasClass(targetClass)) targetElement.addClass(targetClass);
+      }
+    })
+  );
 };
 
 /**

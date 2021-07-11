@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qbenben.com/"/>
-  <updated>2021-05-27T20:58:00.430Z</updated>
+  <updated>2021-07-11T18:09:12.085Z</updated>
   <id>http://qbenben.com/</id>
   
   <author>
@@ -17,13 +17,69 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我的Google插件以及配置</title>
+    <link href="http://qbenben.com/article/google-plugin/"/>
+    <id>http://qbenben.com/article/google-plugin/</id>
+    <published>2021-07-12T17:41:00.000Z</published>
+    <updated>2021-07-11T18:09:12.085Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>记录我Google插件以及配置，以及share</p></blockquote><h2 id="1-Vue开发调试工具-——-Vue-js-devtools"><a href="#1-Vue开发调试工具-——-Vue-js-devtools" class="headerlink" title="1. Vue开发调试工具 —— Vue.js devtools"></a>1. Vue开发调试工具 —— Vue.js devtools</h2><p><a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd" target="_blank" rel="noopener">安装地址</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;记录我Google插件以及配置，以及share&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;1-Vue开发调试工具-——-Vue-js-devtools&quot;&gt;&lt;a href=&quot;#1-Vue开发调试工具-——-Vue-js-devtools&quot; 
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://qbenben.com/cates/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Mac" scheme="http://qbenben.com/tags/Mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的VSCode插件以及配置</title>
+    <link href="http://qbenben.com/article/vscode/"/>
+    <id>http://qbenben.com/article/vscode/</id>
+    <published>2021-07-11T17:41:00.000Z</published>
+    <updated>2021-07-11T19:06:56.529Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>记录我VSCode插件以及配置，以及share</p></blockquote><h2 id="整体效果"><a href="#整体效果" class="headerlink" title="整体效果"></a>整体效果</h2><p><img src="/images/vscode/all-view.png" alt="整体效果"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;记录我VSCode插件以及配置，以及share&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;整体效果&quot;&gt;&lt;a href=&quot;#整体效果&quot; class=&quot;headerlink&quot; title=&quot;整体效果&quot;&gt;&lt;/a&gt;整体效果&lt;/h2&gt;&lt;p&gt;&lt;img
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://qbenben.com/cates/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Mac" scheme="http://qbenben.com/tags/Mac/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mac初始化配置以及软件分享</title>
     <link href="http://qbenben.com/article/mac/"/>
     <id>http://qbenben.com/article/mac/</id>
     <published>2021-05-28T17:41:00.000Z</published>
-    <updated>2021-05-27T20:58:00.430Z</updated>
+    <updated>2021-07-11T19:19:21.399Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>记录留痕自己Mac常用的软件，以及share</p></blockquote><h2 id="1-Git"><a href="#1-Git" class="headerlink" title="1. Git"></a>1. Git</h2><h3 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h3><ol><li>通过homebrew安装Git</li></ol><ul><li>安装homebrew<pre><code class="bash">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre></li><li>安装git<pre><code class="bash">brew install git</code></pre></li></ul><ol start="2"><li>创建ssh key并配置</li></ol><ul><li>设置好username喝email，每次commit都会记录（配错不会有小绿点哦）<pre><code>git config --global user.name &quot;zhengqbbb&quot;git config --global user.email &quot;1074059947@qq.com&quot;</code></pre></li><li>创建ssh key<pre><code class="bash">ssh-keygen -t rsa -C &quot;1074059947@qq.com&quot;</code></pre><h3 id="2-常见命令"><a href="#2-常见命令" class="headerlink" title="2. 常见命令"></a>2. 常见命令</h3></li><li>代理<ul><li>如果自己有github和gitee的项目可以把下面的–global去掉分repo<pre><code class="bash"># 看看自己的airplane HTTP代理地址是多少git config --global https.proxy http://127.0.0.1:1080git config --global https.proxy https://127.0.0.1:1080# 看看自己的airplane（高级设置） socks5监听地址是多少git config --global http.proxy &#39;socks5://127.0.0.1:1080&#39;git config --global https.proxy &#39;socks5://127.0.0.1:1080&#39;git config --global --unset http.proxygit config --global --unset https.proxygit config list</code></pre></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>记录留痕自己Mac常用的软件，以及share</p></blockquote><h2 id="1-Git"><a href="#1-Git" class="headerlink" title="1. Git"></a>1. Git</h2><h3 id="1-1-安装Git"><a href="#1-1-安装Git" class="headerlink" title="1.1. 安装Git"></a>1.1. 安装Git</h3><ol><li>通过homebrew安装Git</li></ol><ul><li>安装homebrew</li></ul><pre><code class="bash">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre><ul><li>安装git<pre><code class="bash">brew install git</code></pre></li></ul><ol start="2"><li>创建ssh key并配置</li></ol><ul><li>设置好username喝email，每次commit都会记录（配错不会有小绿点哦）<pre><code>git config --global user.name &quot;Zhengqbbb&quot;git config --global user.email &quot;1074059947@qq.com&quot;</code></pre></li><li>创建ssh key<pre><code class="bash">ssh-keygen -t rsa -C &quot;1074059947@qq.com&quot;</code></pre><h3 id="1-2-常见命令"><a href="#1-2-常见命令" class="headerlink" title="1.2. 常见命令"></a>1.2. 常见命令</h3></li><li>代理<ul><li>如果自己有github和gitee的项目可以把下面的–global去掉分repo<pre><code class="bash"># 看看自己的飞机 HTTP代理地址是多少git config --global https.proxy http://127.1:1087git config --global https.proxy https://127.1:1087# 看看自己的飞机（高级设置 | Telegram谢天这个） socks5监听地址是多少git config --global http.proxy &#39;socks5://127.1:1086&#39;git config --global https.proxy &#39;socks5://127.1:1086&#39;git config --global --unset http.proxygit config --global --unset https.proxygit config list</code></pre></li></ul></li></ul><h2 id="2-Node"><a href="#2-Node" class="headerlink" title="2. Node"></a>2. Node</h2><blockquote><p>这边Node使用brew安装</p></blockquote><pre><code class="bash">brew install node</code></pre><h3 id="2-1-Node版本常见命令"><a href="#2-1-Node版本常见命令" class="headerlink" title="2.1. Node版本常见命令"></a>2.1. Node版本常见命令</h3><pre><code class="bash">sudo npm install npm@latest -g # 升级到最新版sudo npm install npm@xx -g     # 升级到指定版本npm version                    # 查看版本详情npm view npm version           # npm最新版本npm view npm versions          # npm所有版本npm list                       #  插件清单</code></pre><h3 id="2-2-Node-Npm常见命令"><a href="#2-2-Node-Npm常见命令" class="headerlink" title="2.2. Node/Npm常见命令"></a>2.2. Node/Npm常见命令</h3><pre><code class="bash">npm config list # npm查看配置信息npm cache clean -f # npm清楚缓存npm config set proxy=http://127.1:8087 # npm设置http代理npm config delete proxynpm config delete https-proxy #取消代理</code></pre><h3 id="2-3-npm快速换源工具-nrm"><a href="#2-3-npm快速换源工具-nrm" class="headerlink" title="2.3. npm快速换源工具-nrm"></a>2.3. npm快速换源工具-nrm</h3><ol><li>安装</li></ol><pre><code class="shell">npm install -g nrm</code></pre><ol start="2"><li>常见命令</li></ol><pre><code>nrm ls # 列出可选的源nrm use taobao# 切换源nrm test # 测试所有源速度nrm test npm  # 测试单源速度</code></pre><h2 id="3-我的应用程序"><a href="#3-我的应用程序" class="headerlink" title="3. 我的应用程序"></a>3. 我的应用程序</h2><h3 id="3-1-1-代码编辑器——VSCode"><a href="#3-1-1-代码编辑器——VSCode" class="headerlink" title="3.1. 1 代码编辑器——VSCode"></a>3.1. 1 代码编辑器——VSCode</h3><p><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode 安装地址</a> <br><br><a href="https://www.qbenben.com/article/vscode/" target="_blank" rel="noopener">我的vscode插件以及配置分享</a></p><h3 id="3-2-md文件查看编辑器——Typora"><a href="#3-2-md文件查看编辑器——Typora" class="headerlink" title="3.2. md文件查看编辑器——Typora"></a>3.2. md文件查看编辑器——Typora</h3><p><a href="https://www.typora.io/" target="_blank" rel="noopener">Typora 安装地址</a></p><h3 id="3-3-视频播放器——Elmedia-Player-VLC"><a href="#3-3-视频播放器——Elmedia-Player-VLC" class="headerlink" title="3.3. 视频播放器——Elmedia Player / VLC"></a>3.3. 视频播放器——Elmedia Player / VLC</h3><p><a href="https://www.elmedia-video-player.com/" target="_blank" rel="noopener">Elmedia Player 安装地址</a><br><br><a href="https://www.videolan.org/" target="_blank" rel="noopener">VLC 安装地址</a></p><h3 id="3-4-下载软件——Folx"><a href="#3-4-下载软件——Folx" class="headerlink" title="3.4. 下载软件——Folx"></a>3.4. 下载软件——Folx</h3><blockquote><p>类似于迅雷但不流氓，可以用来下载torrent种子文件</p></blockquote><p><a href="https://www.mac-downloader.com/" target="_blank" rel="noopener">Folx 安装地址</a></p><h3 id="3-5-（强力推荐）生产力工具——ControlaxPro-Alfred"><a href="#3-5-（强力推荐）生产力工具——ControlaxPro-Alfred" class="headerlink" title="3.5. （强力推荐）生产力工具——ControlaxPro / Alfred"></a>3.5. （强力推荐）生产力工具——ControlaxPro / Alfred</h3><blockquote><p>强力推荐这两个我操作最频率的软件，ControlaxPro是我买的第一个App Store的付费软件</p></blockquote><ol><li>ControlaxPro</li></ol><ul><li>安装：在appstore下载</li><li>介绍：他可以通过你设置的快捷键快速打开软件，网页，文件夹和系统操作</li><li>效果：<img src="/images/mac/ControlaxPro.png" alt="整体效果"></li></ul><ol start="2"><li>Alfred</li></ol><ul><li>安装：WX公众号【果冻时刻】，回复<strong>Alfred</strong></li><li>介绍：我主要是用粘贴的history，更多功能可以看<a href="https://www.bilibili.com/video/BV1ya4y1x7fc" target="_blank" rel="noopener">介绍视频</a></li><li>ps：如果下载地址无法访问，把地址lanzous，改成lanzoux或lanzoui</li><li>效果：<br><img src="/images/mac/Alfred.png" alt="整体效果"></li></ul><h3 id="3-6-外接屏幕控制——MonitorControl"><a href="#3-6-外接屏幕控制——MonitorControl" class="headerlink" title="3.6. 外接屏幕控制——MonitorControl"></a>3.6. 外接屏幕控制——MonitorControl</h3><blockquote><p>mac外接屏幕无法设置其音量亮度</p></blockquote><p><a href="https://github.com/MonitorControl/MonitorControl" target="_blank" rel="noopener">MonitorControl 安装地址</a></p><h3 id="3-7-清楚软件——Tencent-Lemon"><a href="#3-7-清楚软件——Tencent-Lemon" class="headerlink" title="3.7 清楚软件——Tencent Lemon"></a>3.7 清楚软件——Tencent Lemon</h3><blockquote><p>腾讯在windows的软件很流氓，mac还行用着挺方便的，日常清理垃圾还有卸载软件清楚残留文件</p></blockquote><p><a href="https://lemon.qq.com/" target="_blank" rel="noopener">Tencent Lemon 安装地址</a></p><h3 id="3-8-压缩文件解压文件——eZip"><a href="#3-8-压缩文件解压文件——eZip" class="headerlink" title="3.8 压缩文件解压文件——eZip"></a>3.8 压缩文件解压文件——eZip</h3><p><a href="https://ezip.awehunt.com/" target="_blank" rel="noopener">eZip 安装地址</a></p><h3 id="3-9-分屏工具——Spectacle"><a href="#3-9-分屏工具——Spectacle" class="headerlink" title="3.9 分屏工具——Spectacle"></a>3.9 分屏工具——Spectacle</h3><blockquote><p>mac 自带的分屏很难用，无奈只能找一个免费的，通过快捷键，将目前使用的软件分屏</p></blockquote><p><a href="https://www.spectacleapp.com/" target="_blank" rel="noopener">Spectacle 安装地址</a></p><h3 id="3-10-测速工具——Speedtest"><a href="#3-10-测速工具——Speedtest" class="headerlink" title="3.10 测速工具——Speedtest"></a>3.10 测速工具——Speedtest</h3><p>在appstore下载</p><h3 id="3-11-长截图工具——Xnip"><a href="#3-11-长截图工具——Xnip" class="headerlink" title="3.11 长截图工具——Xnip"></a>3.11 长截图工具——Xnip</h3><blockquote><p>mac 长列表截图工具大部分复飞，Xnip部分功能需要付费，并且带logo水印</p></blockquote><p><a href="https://xnipapp.com/" target="_blank" rel="noopener">Xnip 安装地址</a></p><h2 id="4-终端"><a href="#4-终端" class="headerlink" title="4. 终端"></a>4. 终端</h2><h3 id="4-1-文件夹开启终端"><a href="#4-1-文件夹开启终端" class="headerlink" title="4.1 文件夹开启终端"></a>4.1 文件夹开启终端</h3><blockquote><p>在访达文件夹中快速打开终端并且在该目录中的方法和软件有很多</p></blockquote><p>这里我选择的是<a href="https://github.com/Ji4n1ng/OpenInTerminal" target="_blank" rel="noopener">OpenInTerminal</a></p><h3 id="4-2-Mac终端神器——iTerm"><a href="#4-2-Mac终端神器——iTerm" class="headerlink" title="4.2 Mac终端神器——iTerm"></a>4.2 Mac终端神器——iTerm</h3><p><a href="https://iterm2.com/downloads.html" target="_blank" rel="noopener">iTerm 安装地址</a></p>]]></content>
     
     <summary type="html">
     
