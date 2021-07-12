@@ -385,7 +385,7 @@ html , body{
     background: #d4d4d4;
     margin-bottom: .5rem;
     cursor: pointer;
-    transition: all .4s;
+    transition: all .1s;
     border-radius: 2px;
     box-shadow: 2px 2px 2px #ccc;
     position: fixed;
@@ -393,7 +393,7 @@ html , body{
     right: 20px;
     z-index: 99;
 }
-.tips-top-wrapper:hover{
+.tips-top-wrapper:active{
     background: #f5a214;
   }
 .tip-top-container{
