@@ -106,6 +106,7 @@ var initPageToc = function () {
   var heightDistance = 90;
   // TOC link click animate
   $(".post-toc-link").each(function () {
+    if (!$($(this).attr("href")).offset()) return;
     var itemOffsetTop = $($(this).attr("href")).offset().top;
     $(this).on("click", function () {
       $("html, body").animate(
